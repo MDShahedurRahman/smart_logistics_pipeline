@@ -5,4 +5,6 @@ from config import SOURCE_FILE, BRONZE_PATH
 
 def run_bronze_job(spark):
     print("Running Bronze Ingestion...")
+
+    ensure_dir(BRONZE_PATH)
     return df
