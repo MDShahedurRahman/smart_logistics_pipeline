@@ -22,3 +22,19 @@ It is designed to reflect real-world logistics, supply chain, and
 transportation analytics systems.
 
 ------------------------------------------------------------------------
+
+## Business Context
+
+Logistics companies must monitor shipment performance, delivery
+timelines, and SLA compliance to maintain operational excellence and
+customer satisfaction.
+
+This pipeline enables:
+
+-   Monitoring late deliveries
+-   Identifying SLA breaches
+-   Evaluating delivery risk levels
+-   Tracking revenue by destination
+-   Measuring average delivery time performance
+
+------------------------------------------------------------------------
