@@ -103,3 +103,36 @@ Optimized for BI tools and analytics workloads.
 -   Modular Python Architecture
 
 ------------------------------------------------------------------------
+
+## Project Structure
+
+smart_logistics_pipeline/
+
+├── main.py\
+├── config.py\
+├── requirements.txt
+
+├── data/\
+│ └── shipments.csv
+
+├── jobs/\
+│ ├── bronze_ingestion.py\
+│ ├── silver_transformation.py\
+│ ├── sla_detection.py\
+│ ├── risk_scoring.py\
+│ ├── gold_star_schema.py\
+│ └── business_kpis.py
+
+├── utils/\
+│ ├── spark_session.py\
+│ ├── schema.py\
+│ ├── validators.py\
+│ └── helpers.py
+
+└── output/\
+├── bronze/\
+├── silver/\
+├── gold/\
+└── reports/
+
+------------------------------------------------------------------------
