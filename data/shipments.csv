@@ -1,0 +1,6 @@
+shipment_id,customer_id,warehouse_id,origin_city,destination_city,weight_kg,shipping_cost,order_date,delivery_date,status
+1,C001,W001,New York,Chicago,12,50,2025-01-01,2025-01-03,Delivered
+2,C002,W002,Los Angeles,Dallas,30,120,2025-01-02,2025-01-07,Delivered
+3,C003,W001,New York,Boston,5,25,2025-01-03,2025-01-04,Delivered
+4,C004,W003,Seattle,Miami,40,200,2025-01-04,2025-01-10,Delivered
+5,C005,W002,Los Angeles,Houston,18,75,2025-01-05,2025-01-08,Delivered
