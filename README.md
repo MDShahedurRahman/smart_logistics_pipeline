@@ -56,3 +56,40 @@ Gold Layer (Dimensional Star Schema)\
 Business KPI Reports
 
 ------------------------------------------------------------------------
+
+## Data Lake Layer Design
+
+### Bronze Layer
+
+-   Raw shipment ingestion from CSV
+-   Schema enforcement
+-   Stored in Parquet format
+-   Immutable raw dataset
+
+### Silver Layer
+
+-   Duplicate removal
+-   Date type conversions
+-   Delivery duration calculation
+-   Positive value validation
+-   Clean, analytics-ready dataset
+
+### SLA Detection
+
+-   Configurable SLA threshold
+-   Flags shipments as BREACH or ON_TIME
+
+### Risk Scoring
+
+-   Multi-level risk classification
+-   Risk score (1--3) based on delivery delay
+
+### Gold Layer (Star Schema)
+
+Dimension Tables: - dim_customer - dim_warehouse
+
+Fact Table: - fact_shipments
+
+Optimized for BI tools and analytics workloads.
+
+------------------------------------------------------------------------
