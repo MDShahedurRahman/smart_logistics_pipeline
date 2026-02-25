@@ -38,3 +38,21 @@ This pipeline enables:
 -   Measuring average delivery time performance
 
 ------------------------------------------------------------------------
+
+## Architecture Overview
+
+Raw CSV Data\
+↓\
+Bronze Layer (Raw Ingestion & Schema Enforcement)\
+↓\
+Silver Layer (Data Cleaning, Validation & Enrichment)\
+↓\
+SLA Detection Layer\
+↓\
+Risk Scoring Layer\
+↓\
+Gold Layer (Dimensional Star Schema)\
+↓\
+Business KPI Reports
+
+------------------------------------------------------------------------
