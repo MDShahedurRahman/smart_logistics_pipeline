@@ -93,3 +93,13 @@ Fact Table: - fact_shipments
 Optimized for BI tools and analytics workloads.
 
 ------------------------------------------------------------------------
+
+## Technology Stack
+
+-   Python 3.9+
+-   PySpark 3.5
+-   Parquet (Columnar Storage)
+-   Local Data Lake (File System)
+-   Modular Python Architecture
+
+------------------------------------------------------------------------
