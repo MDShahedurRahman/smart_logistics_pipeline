@@ -105,7 +105,7 @@ Optimized for BI tools and analytics workloads.
 ------------------------------------------------------------------------
 
 ## Project Structure
-
+```
 smart_logistics_pipeline/
 
 ├── main.py\
@@ -134,5 +134,5 @@ smart_logistics_pipeline/
 ├── silver/\
 ├── gold/\
 └── reports/
-
+```
 ------------------------------------------------------------------------
