@@ -129,10 +129,10 @@ smart_logistics_pipeline/
 │ ├── validators.py\
 │ └── helpers.py
 
-└── output/\
-├── bronze/\
-├── silver/\
-├── gold/\
+└── output/
+├── bronze/
+├── silver/
+├── gold/
 └── reports/
 ```
 ------------------------------------------------------------------------
