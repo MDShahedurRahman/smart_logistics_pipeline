@@ -15,6 +15,7 @@ def run_silver_job(spark):
 
     transformed = (
         df.dropDuplicates(["shipment_id"])
+        .withColumn("order_date", to_date(col("order_date"), "yyyy-MM-dd"))
     )
 
     return transformed
