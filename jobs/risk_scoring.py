@@ -11,7 +11,8 @@ def run_risk_scoring(spark):
     df = spark.read.parquet(SLA_PATH)
 
     scored = df.withColumn(
-        "risk_score"
+        "risk_score",
+        when(col("delivery_days") > 5, 3)
     )
 
     return scored
