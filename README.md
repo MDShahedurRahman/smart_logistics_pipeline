@@ -136,3 +136,19 @@ smart_logistics_pipeline/
 └── reports/
 ```
 ------------------------------------------------------------------------
+
+## Execution Instructions
+
+### Install Dependencies
+
+pip install -r requirements.txt
+
+### Run Pipeline
+
+python main.py
+
+Execution Flow: 1. Bronze ingestion 2. Silver transformation 3. SLA
+breach detection 4. Risk scoring 5. Gold star schema creation 6. KPI
+report generation
+
+------------------------------------------------------------------------
