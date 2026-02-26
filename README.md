@@ -205,3 +205,17 @@ performance monitoring.
 -   Reproducible batch execution
 
 ------------------------------------------------------------------------
+
+## Scalability & Production Extensions
+
+This pipeline can be extended with:
+
+-   Partitioning by date and region
+-   Delta Lake integration
+-   Cloud storage (AWS S3 / Azure Data Lake)
+-   Orchestration via Apache Airflow
+-   Streaming ingestion using Kafka
+-   CI/CD integration
+-   Data quality monitoring framework
+
+------------------------------------------------------------------------
