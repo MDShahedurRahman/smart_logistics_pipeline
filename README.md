@@ -193,3 +193,15 @@ This model supports BI dashboards, operational reporting, and
 performance monitoring.
 
 ------------------------------------------------------------------------
+
+## Enterprise Engineering Practices Demonstrated
+
+-   Modular PySpark job design
+-   Config-driven architecture
+-   Data validation layer
+-   Layered transformation pattern
+-   Clear separation of ingestion and analytics layers
+-   Star schema modeling
+-   Reproducible batch execution
+
+------------------------------------------------------------------------
