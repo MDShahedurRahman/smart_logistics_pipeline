@@ -228,3 +228,15 @@ This pipeline can be extended with:
 -   Delivery risk analysis platforms
 
 ------------------------------------------------------------------------
+
+## Author
+
+Developed as an enterprise-style data engineering portfolio project to
+demonstrate scalable batch processing, dimensional modeling, and PySpark
+expertise.
+
+------------------------------------------------------------------------
+
+## License
+
+Open for educational and portfolio demonstration purposes.
