@@ -219,3 +219,12 @@ This pipeline can be extended with:
 -   Data quality monitoring framework
 
 ------------------------------------------------------------------------
+
+## Ideal Use Cases
+
+-   Logistics analytics platforms
+-   Supply chain performance monitoring
+-   Transportation SLA management systems
+-   Delivery risk analysis platforms
+
+------------------------------------------------------------------------
