@@ -115,12 +115,12 @@ smart_logistics_pipeline/
 ├── data/\
 │ └── shipments.csv
 
-├── jobs/\
-│ ├── bronze_ingestion.py\
-│ ├── silver_transformation.py\
-│ ├── sla_detection.py\
-│ ├── risk_scoring.py\
-│ ├── gold_star_schema.py\
+├── jobs/
+│ ├── bronze_ingestion.py
+│ ├── silver_transformation.py
+│ ├── sla_detection.py
+│ ├── risk_scoring.py
+│ ├── gold_star_schema.py
 │ └── business_kpis.py
 
 ├── utils/
