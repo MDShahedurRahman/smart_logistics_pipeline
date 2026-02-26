@@ -14,9 +14,7 @@ def run_risk_scoring(spark):
         "risk_score",
         when(col("delivery_days") > 5, 3)
         .when(col("delivery_days") > 3, 2)
+        .otherwise(1)
     )
 
-    scored.write.mode("overwrite").parquet(RISK_PATH)
-
-    print("Risk Scoring Completed.")
     return scored
