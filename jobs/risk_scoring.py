@@ -19,4 +19,5 @@ def run_risk_scoring(spark):
 
     scored.write.mode("overwrite").parquet(RISK_PATH)
 
+    print("Risk Scoring Completed.")
     return scored
