@@ -5,5 +5,16 @@ from utils.validators import validate_positive_values
 
 
 def run_silver_job(spark):
+    print("Running Silver Transformation...")
+
+    ensure_dir(SILVER_PATH)
+
+    df = spark.read.parquet(BRONZE_PATH)
+
+    df = validate_positive_values(df)
+
+    transformed = (
+        df.dropDuplicates(["shipment_id"])
+    )
 
     return transformed
