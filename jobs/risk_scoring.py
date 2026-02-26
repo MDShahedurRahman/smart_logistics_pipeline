@@ -17,4 +17,6 @@ def run_risk_scoring(spark):
         .otherwise(1)
     )
 
+    scored.write.mode("overwrite").parquet(RISK_PATH)
+
     return scored
