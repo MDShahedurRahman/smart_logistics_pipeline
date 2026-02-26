@@ -13,6 +13,7 @@ def run_sla_detection(spark):
     flagged = df.withColumn(
         "sla_breach",
         when(col("delivery_days") > SLA_THRESHOLD_DAYS, "BREACH")
+        .otherwise("ON_TIME")
     )
 
     return flagged
