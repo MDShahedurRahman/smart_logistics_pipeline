@@ -165,3 +165,31 @@ Reports are written to:
 output/reports/
 
 ------------------------------------------------------------------------
+
+## Data Model Overview
+
+### Dimension: dim_customer
+
+-   customer_id
+
+### Dimension: dim_warehouse
+
+-   warehouse_id
+-   origin_city
+
+### Fact: fact_shipments
+
+-   shipment_id
+-   customer_id
+-   warehouse_id
+-   destination_city
+-   weight_kg
+-   shipping_cost
+-   delivery_days
+-   sla_breach
+-   risk_score
+
+This model supports BI dashboards, operational reporting, and
+performance monitoring.
+
+------------------------------------------------------------------------
