@@ -16,4 +16,6 @@ def run_sla_detection(spark):
         .otherwise("ON_TIME")
     )
 
+    flagged.write.mode("overwrite").parquet(SLA_PATH)
+
     return flagged
