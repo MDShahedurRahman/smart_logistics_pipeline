@@ -18,4 +18,5 @@ def run_sla_detection(spark):
 
     flagged.write.mode("overwrite").parquet(SLA_PATH)
 
+    print("SLA Detection Completed.")
     return flagged
