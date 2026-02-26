@@ -21,4 +21,6 @@ def run_silver_job(spark):
                     datediff(col("delivery_date"), col("order_date")))
     )
 
+    transformed.write.mode("overwrite").parquet(SILVER_PATH)
+
     return transformed
