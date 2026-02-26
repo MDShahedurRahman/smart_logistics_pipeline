@@ -123,10 +123,10 @@ smart_logistics_pipeline/
 │ ├── gold_star_schema.py\
 │ └── business_kpis.py
 
-├── utils/\
-│ ├── spark_session.py\
-│ ├── schema.py\
-│ ├── validators.py\
+├── utils/
+│ ├── spark_session.py
+│ ├── schema.py
+│ ├── validators.py
 │ └── helpers.py
 
 └── output/
