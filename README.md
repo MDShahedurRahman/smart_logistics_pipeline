@@ -152,3 +152,16 @@ breach detection 4. Risk scoring 5. Gold star schema creation 6. KPI
 report generation
 
 ------------------------------------------------------------------------
+
+## Key Metrics Generated
+
+-   Total shipping revenue by destination city
+-   Average delivery days by city
+-   SLA breach distribution
+-   Shipment risk distribution
+
+Reports are written to:
+
+output/reports/
+
+------------------------------------------------------------------------
