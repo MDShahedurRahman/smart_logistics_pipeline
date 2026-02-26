@@ -105,7 +105,7 @@ Optimized for BI tools and analytics workloads.
 ------------------------------------------------------------------------
 
 ## Project Structure
-```
+
 smart_logistics_pipeline/
 
 ├── main.py\
@@ -123,18 +123,18 @@ smart_logistics_pipeline/
 │ ├── gold_star_schema.py\
 │ └── business_kpis.py
 
-├── utils/
-│ ├── spark_session.py
-│ ├── schema.py
-│ ├── validators.py
+├── utils/\
+│ ├── spark_session.py\
+│ ├── schema.py\
+│ ├── validators.py\
 │ └── helpers.py
 
-└── output/
-├── bronze/
-├── silver/
-├── gold/
+└── output/\
+├── bronze/\
+├── silver/\
+├── gold/\
 └── reports/
-```
+
 ------------------------------------------------------------------------
 
 ## Execution Instructions
