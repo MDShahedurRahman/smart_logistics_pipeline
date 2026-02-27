@@ -9,6 +9,7 @@ from jobs.business_kpis import run_kpi_job
 
 
 def main():
+    spark = get_spark_session()
 
 
 if __name__ == "__main__":
