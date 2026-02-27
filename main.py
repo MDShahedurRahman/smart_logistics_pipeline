@@ -12,6 +12,7 @@ def main():
     spark = get_spark_session()
 
     run_bronze_job(spark)
+    run_silver_job(spark)
 
 
 if __name__ == "__main__":
