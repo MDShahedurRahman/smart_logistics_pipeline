@@ -27,3 +27,8 @@ def run_gold_job(spark):
         "sla_breach",
         "risk_score"
     )
+
+    dim_customer.write.mode("overwrite").parquet(GOLD_PATH + "dim_customer/")
+    dim_warehouse.write.mode("overwrite").parquet(GOLD_PATH + "dim_warehouse/")
+    fact_shipments.write.mode("overwrite").parquet(
+        GOLD_PATH + "fact_shipments/")
