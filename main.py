@@ -13,6 +13,7 @@ def main():
 
     run_bronze_job(spark)
     run_silver_job(spark)
+    run_sla_detection(spark)
 
 
 if __name__ == "__main__":
