@@ -18,6 +18,9 @@ def main():
     run_gold_job(spark)
     run_kpi_job(spark)
 
+    spark.stop()
+    print("Smart Logistics Pipeline Completed Successfully!")
+
 
 if __name__ == "__main__":
     main()
