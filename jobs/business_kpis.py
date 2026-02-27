@@ -20,3 +20,11 @@ def run_kpi_job(spark):
         fact.groupBy("destination_city")
         .agg(avg("delivery_days").alias("avg_delivery_days"))
     )
+
+    revenue.show()
+    avg_delivery.show()
+
+    revenue.write.mode("overwrite").csv(
+        REPORT_PATH + "revenue_by_city/",
+        header=True
+    )
