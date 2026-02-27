@@ -14,6 +14,7 @@ def main():
     run_bronze_job(spark)
     run_silver_job(spark)
     run_sla_detection(spark)
+    run_risk_scoring(spark)
 
 
 if __name__ == "__main__":
