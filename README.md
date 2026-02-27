@@ -133,7 +133,7 @@ smart_logistics_pipeline/
 ├── bronze/
 ├── silver/
 ├── gold/
-└── reports/
+└── reports
 
 ------------------------------------------------------------------------
 
