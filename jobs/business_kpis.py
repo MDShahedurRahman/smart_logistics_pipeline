@@ -28,3 +28,8 @@ def run_kpi_job(spark):
         REPORT_PATH + "revenue_by_city/",
         header=True
     )
+
+    avg_delivery.write.mode("overwrite").csv(
+        REPORT_PATH + "avg_delivery_time/",
+        header=True
+    )
