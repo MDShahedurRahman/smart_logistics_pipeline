@@ -15,3 +15,8 @@ def run_kpi_job(spark):
         .agg(sum("shipping_cost").alias("total_revenue"))
         .orderBy(desc("total_revenue"))
     )
+
+    avg_delivery = (
+        fact.groupBy("destination_city")
+        .agg(avg("delivery_days").alias("avg_delivery_days"))
+    )
