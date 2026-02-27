@@ -15,3 +15,15 @@ def run_gold_job(spark):
         "warehouse_id",
         "origin_city"
     ).dropDuplicates()
+
+    fact_shipments = df.select(
+        "shipment_id",
+        "customer_id",
+        "warehouse_id",
+        "destination_city",
+        "weight_kg",
+        "shipping_cost",
+        "delivery_days",
+        "sla_breach",
+        "risk_score"
+    )
