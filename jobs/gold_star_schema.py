@@ -10,3 +10,8 @@ def run_gold_job(spark):
     df = spark.read.parquet(RISK_PATH)
 
     dim_customer = df.select("customer_id").dropDuplicates()
+
+    dim_warehouse = df.select(
+        "warehouse_id",
+        "origin_city"
+    ).dropDuplicates()
