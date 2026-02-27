@@ -32,3 +32,5 @@ def run_gold_job(spark):
     dim_warehouse.write.mode("overwrite").parquet(GOLD_PATH + "dim_warehouse/")
     fact_shipments.write.mode("overwrite").parquet(
         GOLD_PATH + "fact_shipments/")
+
+    print("Gold Completed.")
