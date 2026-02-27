@@ -109,7 +109,7 @@ Optimized for BI tools and analytics workloads.
 smart_logistics_pipeline/
 
 ├── main.py\
-├── config.py\
+├── config.py
 ├── requirements.txt
 
 ├── data/
