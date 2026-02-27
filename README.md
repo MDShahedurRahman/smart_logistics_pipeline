@@ -112,7 +112,7 @@ smart_logistics_pipeline/
 ├── config.py\
 ├── requirements.txt
 
-├── data/\
+├── data/
 │ └── shipments.csv
 
 ├── jobs/
