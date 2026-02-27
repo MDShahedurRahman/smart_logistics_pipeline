@@ -19,7 +19,7 @@ including:
 -   Modular, production-ready PySpark design
 
 It is designed to reflect real-world logistics, supply chain, and
-transportation analytics systems
+transportation analytics systems.
 
 ------------------------------------------------------------------------
 
