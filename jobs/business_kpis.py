@@ -33,3 +33,5 @@ def run_kpi_job(spark):
         REPORT_PATH + "avg_delivery_time/",
         header=True
     )
+
+    print("KPI Reports Generated.")
